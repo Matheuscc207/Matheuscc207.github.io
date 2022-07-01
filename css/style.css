@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background: rgb(0,70,189);
+    background: linear-gradient(180deg, rgba(0,70,189,1) 0%, rgba(0,104,255,1) 85%);
+}
+
+.profile {
+    text-align: center;
+}
+
+.gatotao {
+    margin: 20px 0 10px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.social {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.social img {
+    width: 33px;
+}
+
+
+.links li {
+    list-style: none;
+    margin: 10px 20px;
+}
+
+.links li a {
+    background-color: aliceblue;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: 0 0 20px white;
+    display: block;
+    text-decoration: none;
+    color: rgb(0,70,189);
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+}
+
+.links li a span{
+    color: black;
+    /* display: block; */
+    margin-top: 3px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+}
